@@ -6,7 +6,7 @@
 
 .form label {
     display: block;
-    font: 600 1rem/1.5 "Poppins", sans-serif;
+    font: 500 1rem/1.5 "Poppins", sans-serif;
     margin-bottom: 4px;
 }
 
@@ -33,6 +33,29 @@
     border-color: var(--cor-p1);
     background: var(--cor-0);
     box-shadow: 0 0 0 2px #fea;
+}
+
+.termos-check {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.termos-check label {
+    margin: 0px;
+    display: inline-block;
+}
+
+.termos-check input[type="checkbox"] {
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.termos-check a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 @media (max-width: 600px) {
